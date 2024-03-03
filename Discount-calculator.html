@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount Calculator</title>
+    <style>
+      * {
+        color: cadetblue;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      p {
+        font-size: x-large;
+        padding-left: 370px;
+      }
+
+      table {
+        padding-left: 370px;
+      }
+
+      #calculator {
+        padding: 198px 195px;
+        font-size: larger;
+        color: white;
+      }
+
+      input[type="number"] {
+        padding: 1px 151px;
+      }
+
+      #small {
+        font-size: small;
+      }
+
+      button[type="submit"] {
+        background-color: #4caf50;
+        border-radius: 8px;
+      }
+
+      button:hover {
+        color: burlywood;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2 class="center">DISCOUNT CALCULATOR</h2>
+    <p>Enter the Bill amount and discount in percentage</p>
+    <table>
+      <tbody>
+        <tr>
+          <td><label for=""> Bill Amount</label></td>
+        </tr>
+        <tr>
+          <td><input type="number" /></td>
+        </tr>
+        <tr>
+          <td><label for=""> Discount Percentage </label></td>
+        </tr>
+        <tr>
+          <td><input type="number" /></td>
+        </tr>
+        <tr>
+          <td>
+            <button type="submit">
+              <span id="calculator"> Calculate </span>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p id="small">Total Discount Amount</p>
+  </body>
+</html>
